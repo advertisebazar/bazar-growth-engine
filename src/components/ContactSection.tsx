@@ -48,10 +48,14 @@ const ContactSection = () => {
   };
 
   const openWhatsApp = () => {
-    const phoneNumber = "1234567890"; // Replace with actual WhatsApp number
+    const phoneNumber = "917667227737"; // Updated with your number
     const message = "Hi! I'm interested in AdvertiseBazar's services.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
+  };
+
+  const callPhone = () => {
+    window.location.href = 'tel:+917667227737';
   };
 
   return (
@@ -142,21 +146,23 @@ const ContactSection = () => {
               </form>
             </div>
             
-            {/* Booking & Contact Info */}
+            {/* Contact Information */}
             <div className="space-y-8">
-              {/* Calendar Booking */}
+              {/* Phone Contact */}
               <div className="bg-primary/5 rounded-2xl p-8">
-                <h3 className="text-2xl font-bold mb-4">Book Your Free Consultation Call</h3>
+                <h3 className="text-2xl font-bold mb-4">Call Us Directly</h3>
                 <p className="text-gray-600 mb-6">
-                  Choose a time that works for you and let's discuss how we can help.
+                  Speak with our team directly to discuss your project needs.
                 </p>
                 
-                {/* Calendly Embed Placeholder */}
-                <div className="bg-white rounded-lg p-6 border-2 border-dashed border-gray-300 text-center">
-                  <div className="text-4xl mb-4">📅</div>
-                  <p className="text-gray-600 mb-4">Calendar booking will be integrated here</p>
-                  <Button className="bg-primary hover:bg-primary/90">
-                    Schedule Now
+                <div className="bg-white rounded-lg p-6 border text-center">
+                  <div className="text-4xl mb-4">📞</div>
+                  <div className="text-2xl font-bold text-primary mb-4">+91 7667227737</div>
+                  <Button 
+                    onClick={callPhone}
+                    className="bg-primary hover:bg-primary/90 w-full"
+                  >
+                    Call Now
                   </Button>
                 </div>
               </div>

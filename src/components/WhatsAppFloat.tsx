@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const WhatsAppFloat = () => {
@@ -14,7 +13,7 @@ const WhatsAppFloat = () => {
   }, []);
 
   const openWhatsApp = () => {
-    const phoneNumber = "1234567890"; // Replace with actual WhatsApp number
+    const phoneNumber = "917667227737"; // Updated with your number
     const message = "Hi! I'm interested in AdvertiseBazar's services. Can we discuss my project?";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');

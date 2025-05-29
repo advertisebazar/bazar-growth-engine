@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const PortfolioSection = () => {
@@ -10,37 +9,37 @@ const PortfolioSection = () => {
     {
       title: 'Real Estate Campaign',
       category: 'Real Estate',
-      image: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       description: 'Generated 500+ qualified leads in 3 months'
     },
     {
       title: 'Brand Identity Design',
       category: 'Design',
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       description: 'Complete brand makeover for tech startup'
     },
     {
       title: 'E-commerce Website',
       category: 'Websites',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       description: 'Custom e-commerce solution with 40% conversion rate'
     },
     {
       title: 'Social Media Videos',
       category: 'Video',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       description: 'Viral video content with 1M+ views'
     },
     {
       title: 'Lead Magnet Design',
       category: 'Real Estate',
-      image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       description: 'High-converting lead magnets for realtors'
     },
     {
       title: 'Corporate Website',
       category: 'Websites',
-      image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       description: 'Professional website with advanced features'
     }
   ];
