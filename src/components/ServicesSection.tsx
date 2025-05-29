@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const ServicesSection = () => {
@@ -61,10 +60,6 @@ const ServicesSection = () => {
                     </li>
                   ))}
                 </ul>
-                
-                <button className="mt-8 bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors duration-300 font-semibold">
-                  Learn More
-                </button>
               </div>
             ))}
           </div>

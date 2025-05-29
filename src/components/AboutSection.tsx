@@ -44,8 +44,8 @@ const AboutSection = () => {
               <div className="relative">
                 <div className="bg-primary/10 rounded-2xl p-8">
                   <img 
-                    src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                    alt="Digital Agency Team" 
+                    src="/lovable-uploads/6e377141-7fc9-418f-a1eb-9ac2626c8c64.png" 
+                    alt="Md Jamil - Founder & CEO" 
                     className="rounded-xl shadow-lg w-full h-80 object-cover"
                   />
                 </div>
