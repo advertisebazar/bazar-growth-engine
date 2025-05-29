@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const ServicesSection = () => {
@@ -32,7 +33,7 @@ const ServicesSection = () => {
     <section id="services" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">Our Services</h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -44,9 +45,10 @@ const ServicesSection = () => {
             {services.map((service, index) => (
               <div 
                 key={index}
-                className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
+                className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group animate-slide-in-right"
+                style={{animationDelay: `${index * 0.2}s`}}
               >
-                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300 animate-scale-in">
                   {service.icon}
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">{service.title}</h3>
@@ -64,7 +66,7 @@ const ServicesSection = () => {
             ))}
           </div>
           
-          <div className="text-center mt-16">
+          <div className="text-center mt-16 animate-fade-in">
             <div className="bg-white rounded-xl p-8 shadow-lg max-w-4xl mx-auto">
               <h3 className="text-2xl font-bold mb-4">Need a Custom Solution?</h3>
               <p className="text-gray-600 mb-6">

@@ -48,7 +48,7 @@ const AboutSection = () => {
                     <img 
                       src="/lovable-uploads/6e377141-7fc9-418f-a1eb-9ac2626c8c64.png" 
                       alt="Md Jamil - Founder & CEO" 
-                      className="w-80 h-80 rounded-full object-cover shadow-2xl transform transition-transform duration-500 hover:scale-105"
+                      className="w-80 h-80 rounded-full object-cover shadow-2xl transform transition-transform duration-500 hover:scale-110 animate-scale-in"
                     />
                   </div>
                 </div>
