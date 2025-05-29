@@ -41,15 +41,18 @@ const AboutSection = () => {
             </div>
             
             <div className="animate-slide-in-right">
-              <div className="relative">
-                <div className="bg-primary/10 rounded-2xl p-8">
-                  <img 
-                    src="/lovable-uploads/6e377141-7fc9-418f-a1eb-9ac2626c8c64.png" 
-                    alt="Md Jamil - Founder & CEO" 
-                    className="rounded-xl shadow-lg w-full h-80 object-cover"
-                  />
+              <div className="relative flex justify-center">
+                <div className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-r from-primary to-primary/60 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
+                  <div className="relative bg-white rounded-full p-2">
+                    <img 
+                      src="/lovable-uploads/6e377141-7fc9-418f-a1eb-9ac2626c8c64.png" 
+                      alt="Md Jamil - Founder & CEO" 
+                      className="w-80 h-80 rounded-full object-cover shadow-2xl transform transition-transform duration-500 hover:scale-105"
+                    />
+                  </div>
                 </div>
-                <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-lg">
+                <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-lg animate-scale-in">
                   <div className="text-center">
                     <div className="text-2xl font-bold">Md Jamil</div>
                     <div className="text-sm opacity-90">Founder & CEO</div>
