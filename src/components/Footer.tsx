@@ -23,16 +23,18 @@ const Footer = () => {
                 Powering your brand with creativity and results. We specialize in real estate lead generation, 
                 video editing, graphic design, and web development.
               </p>
-              <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
-                  📷
-                </a>
-                <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
-                  💼
-                </a>
-                <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
-                  📺
-                </a>
+              <div className="flex items-center space-x-4">
+                <div className="w-16 h-16 rounded-full overflow-hidden shadow-lg">
+                  <img 
+                    src="/lovable-uploads/7f22a94a-b7ff-4e03-95a9-336f7650e673.png" 
+                    alt="Md Jamil - Founder" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Md Jamil</h4>
+                  <p className="text-gray-300 text-sm">Founder & CEO</p>
+                </div>
               </div>
             </div>
             
