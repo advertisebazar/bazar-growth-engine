@@ -73,7 +73,7 @@ const InternationalPresenceSection = () => {
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-gray-100">
                   <span className="text-gray-600">Response Time</span>
-                  <span className="font-semibold">< 1 Hour</span>
+                  <span className="font-semibold">&lt; 1 Hour</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-gray-100">
                   <span className="text-gray-600">Delivery Rate</span>
