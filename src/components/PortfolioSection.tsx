@@ -1,7 +1,11 @@
+
 import React, { useState } from 'react';
+import PortfolioModal from './PortfolioModal';
 
 const PortfolioSection = () => {
   const [activeFilter, setActiveFilter] = useState('All');
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   
   const filters = ['All', 'Video', 'Design', 'Websites', 'Real Estate'];
   
@@ -48,6 +52,16 @@ const PortfolioSection = () => {
     ? projects 
     : projects.filter(project => project.category === activeFilter);
 
+  const handleProjectClick = (project) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
+
   return (
     <section id="portfolio" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -82,7 +96,8 @@ const PortfolioSection = () => {
             {filteredProjects.map((project, index) => (
               <div 
                 key={index}
-                className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+                onClick={() => handleProjectClick(project)}
               >
                 <div className="relative overflow-hidden">
                   <img 
@@ -116,6 +131,12 @@ const PortfolioSection = () => {
           </div>
         </div>
       </div>
+      
+      <PortfolioModal 
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        project={selectedProject}
+      />
     </section>
   );
 };
