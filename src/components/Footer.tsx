@@ -26,7 +26,7 @@ const Footer = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 rounded-full overflow-hidden shadow-lg">
                   <img 
-                    src="/lovable-uploads/9ccfa79f-9ed8-4815-98d1-ef05e4790f5e.png" 
+                    src="/lovable-uploads/de3e844f-f504-40cb-a5ee-e722997836a8.png" 
                     alt="Md Jamil - Founder" 
                     className="w-full h-full object-cover"
                   />
