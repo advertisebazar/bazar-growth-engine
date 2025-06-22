@@ -204,22 +204,6 @@ const ContactSection = () => {
                   </div>
                 </div>
               </div>
-              
-              {/* Social Media */}
-              <div className="bg-gray-50 rounded-2xl p-6">
-                <h4 className="font-bold mb-4">Follow Us</h4>
-                <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
-                    📷
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
-                    💼
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center hover:bg-primary/80 transition-colors">
-                    📺
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
