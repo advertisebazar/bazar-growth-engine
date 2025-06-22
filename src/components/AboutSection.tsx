@@ -63,14 +63,14 @@ const AboutSection = () => {
                     <div className="relative inline-block mb-6 group">
                       <div className="w-32 h-32 mx-auto rounded-2xl overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-500 transform group-hover:scale-110">
                         <img 
-                          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                          src="/lovable-uploads/891e4c65-4e6f-4f13-a079-28804bceb965.png" 
                           alt="Founder" 
                           className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-700"
                         />
                       </div>
                       <div className="absolute inset-0 bg-primary/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     </div>
-                    <h4 className="text-xl font-bold mb-2">Jamil Ahmad</h4>
+                    <h4 className="text-xl font-bold mb-2">Md Jamil</h4>
                     <p className="text-primary font-semibold mb-4">Founder & CEO</p>
                     <p className="text-gray-600 text-sm leading-relaxed mb-6">
                       "Our mission is to empower businesses with digital solutions that drive growth, 
